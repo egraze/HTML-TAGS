@@ -3,23 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML TAGS</title>
+    <title> HTML Tags</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #191414;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #121212;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1db954;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2, h3, h4, h5, h6 {
+            color: #b3b3b3;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        strong {
+            color: #1db954;
+            font-weight: bold;
+        }
+        em {
+            font-style: italic;
+            color: #1db954;
+        }
+        blockquote {
+            font-style: italic;
+            color: #b3b3b3;
+            background-color: #222;
+            padding: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #1db954;
+        }
+        ol, ul {
+            margin-left: 40px;
+            margin-bottom: 20px;
+            color: #b3b3b3;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #1db954;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #25cf67;
+        }
+        .location {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .location img {
+            width: 30px;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>WELCOME TO MY HTML TAGS ACTIVITY</h1>
-    <h2>I am Elen Grace C. Daday</h2>
-    <h3>I live in Zone 4B, Igpit Opol Misamis Oriental</h3>
-    <h4>I'm 20 years old</h4>
-    <h5>BSIT 2R3</h5>
-    <h6>I love watching movies</h6>
+    <div class="container">
+        <h1>WELCOME TO MY HTML TAGS ACTIVITY</h1>
+        <h2>I am Elen Grace C. Daday</h2>
+        <div class="location">
+            <img src="download.jpg" alt="Location Icon">
+            <h3>I live in Zone 4B, Igpit Opol Misamis Oriental</h3>
+        </div>
+        <h4>I'm 20 years old</h4>
+        <h5>BSIT 2R3</h5>
+        <h6>I love watching movies</h6>
 
-    <p>define a paragraph</p>
-    <strong>defines important text</strong>
-    <em>defines emphasized text</em>
-    <blockquote>Defines a block of quoted text</blockquote>
+        <p>define</strong> a paragraph</p>
+        <strong>defines important text</strong>
+        <em>defines emphasized text</em>
+        <blockquote>Defines a block of quoted text</blockquote>
 
-    <ol>Defines an ordered list</ol>
-    <ul>unordered</ul>
-    <li>list</li>
+        <ol>
+            <li>Defines an ordered list</li>
+        </ol>
+        <ul>
+            <li>unordered</li>
+        </ul>
+        <ul>
+            <li>list</li>
+        </ul>
+        <dl>
+            <dt>defines a description</dt>
+            <dd>defines a term/name in description list</dd>
+            <dd>defines a description of a term in a description list</dd>
+        </dl>
+
+        <a href="file:///C:/Users/user/Downloads/DADAY_ELEN%20GRACE_BSIT2R3.pdf" target="_blank">Open in New Window</a>
+    </div>
 </body>
 </html>
