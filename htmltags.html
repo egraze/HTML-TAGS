@@ -3,120 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> HTML Tags</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: #191414;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #121212;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #1db954;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h2, h3, h4, h5, h6 {
-            color: #b3b3b3;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        p {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        strong {
-            color: #1db954;
-            font-weight: bold;
-        }
-        em {
-            font-style: italic;
-            color: #1db954;
-        }
-        blockquote {
-            font-style: italic;
-            color: #b3b3b3;
-            background-color: #222;
-            padding: 10px;
-            margin: 20px 0;
-            border-left: 4px solid #1db954;
-        }
-        ol, ul {
-            margin-left: 40px;
-            margin-bottom: 20px;
-            color: #b3b3b3;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        a {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            text-decoration: none;
-            color: #fff;
-            background-color: #1db954;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        a:hover {
-            background-color: #25cf67;
-        }
-        .location {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        .location img {
-            width: 30px;
-            margin-right: 10px;
-        }
-    </style>
+    <title>HTML Tags</title>
 </head>
 <body>
-    <div class="container">
-        <h1>WELCOME TO MY HTML TAGS ACTIVITY</h1>
-        <h2>I am Elen Grace C. Daday</h2>
-        <div class="location">
-            <img src="download.jpg" alt="Location Icon">
-            <h3>I live in Zone 4B, Igpit Opol Misamis Oriental</h3>
-        </div>
-        <h4>I'm 20 years old</h4>
-        <h5>BSIT 2R3</h5>
-        <h6>I love watching movies</h6>
+    <!-- Document Structure -->
+    <h1>Welcome to my Activity</h1>
+    <!-- Removed the duplicate <title> and <head> tags that are not allowed inside the <body> -->
+    <h2>This is the body of the document</h2>
+    <p>Content goes here...</p>
 
-        <p>define</strong> a paragraph</p>
-        <strong>defines important text</strong>
-        <em>defines emphasized text</em>
-        <blockquote>Defines a block of quoted text</blockquote>
+    <!-- Text Formatting -->
+    <h1>Text Formatting</h1>
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+    <h3>Sub-subheading</h3>
+    <p>This is a paragraph with <strong>strong</strong> emphasis and <em>italic</em> emphasis.</p>
+    <blockquote>This is a blockquote.</blockquote>
 
-        <ol>
-            <li>Defines an ordered list</li>
-        </ol>
-        <ul>
-            <li>unordered</li>
-        </ul>
-        <ul>
-            <li>list</li>
-        </ul>
-        <dl>
-            <dt>defines a description</dt>
-            <dd>defines a term/name in description list</dd>
-            <dd>defines a description of a term in a description list</dd>
-        </dl>
+    <!-- Lists -->
+    <h1>Lists</h1>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <h2>Description List</h2>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Description for Term 1</dd>
+        <dt>Term 2</dt>
+        <dd>Description for Term 2</dd>
+    </dl>
 
-        <a href="file:///C:/Users/user/Downloads/DADAY_ELEN%20GRACE_BSIT2R3.pdf" target="_blank">Open in New Window</a>
+    <!-- Links -->
+    <h1>Links</h1>
+    <a href="https://www.facebook.com/izumaniac/">Facebook Link</a>
+
+    <!-- Images -->
+    <h1>Images</h1>
+    <img src="https://images.squarespace-cdn.com/content/v1/62724add27ccc61bca95c92c/1681016254459-1SKEVQJ8BGILMUIWHJH8/image.jpeg?format=750w" alt="Placeholder Image">
+
+    <!-- Audio -->
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="wthawdyf.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Video -->
+    <h1>Video</h1>
+    <video width="320" height="240" controls>
+        <source src="wte.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Tables -->
+    <h1>Tables</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Forms -->
+    <h1>Forms</h1>
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Semantic Elements -->
+    <h1>Semantic Elements</h1>
+    <header>
+        <h2>This is a Header</h2>
+    </header>
+    <footer>
+        <p>This is a Footer</p>
+    </footer>
+    <section>
+        <h2>Section Title</h2>
+        <p>Section Content</p>
+    </section>
+    <article>
+        <h2>Article Title</h2>
+        <p>Article Content</p>
+    </article>
+    <aside>
+        <h2>Aside Content</h2>
+        <p>Additional information</p>
+    </aside>
+
+    <!-- Interactive Elements -->
+    <h1>Interactive Elements</h1>
+    <input type="text" placeholder="Enter text here">
+    <button onclick="alert('Button clicked!')">Click Me</button>
+    <select>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+    </select>
+
+    <!-- Meta Information -->
+    <h1>Meta Information</h1>
+    <!-- Removed the duplicate meta tags that are not allowed inside the <body> -->
+
+    <!-- Box Model -->
+    <h1>Box Model</h1>
+    <div style="width: 200px; height: 200px; background-color: blue; padding: 20px; margin: 10px;">
+        <span style="display: block; background-color: red; height: 100%;"></span>
     </div>
 </body>
 </html>
